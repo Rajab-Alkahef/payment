@@ -3,7 +3,7 @@ import 'automatic_payment_methods.dart';
 import 'metadata.dart';
 import 'payment_method_options.dart';
 
-class PaymentIntent {
+class PaymentIntentModel {
   String? id;
   String? object;
   int? amount;
@@ -44,7 +44,7 @@ class PaymentIntent {
   dynamic transferData;
   dynamic transferGroup;
 
-  PaymentIntent({
+  PaymentIntentModel({
     this.id,
     this.object,
     this.amount,
@@ -86,7 +86,8 @@ class PaymentIntent {
     this.transferGroup,
   });
 
-  factory PaymentIntent.fromJson(Map<String, dynamic> json) => PaymentIntent(
+  factory PaymentIntentModel.fromJson(Map<String, dynamic> json) =>
+      PaymentIntentModel(
         id: json['id'] as String?,
         object: json['object'] as String?,
         amount: json['amount'] as int?,

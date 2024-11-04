@@ -3,7 +3,6 @@ import 'package:checkout_payment_ui/Features/checkout/presentation/views/widgets
 import 'package:checkout_payment_ui/Features/checkout/presentation/views/widgets/total_price_widget.dart';
 import 'package:checkout_payment_ui/core/utils/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class ThankYouCard extends StatelessWidget {
