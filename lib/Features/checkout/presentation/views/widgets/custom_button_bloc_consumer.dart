@@ -34,6 +34,7 @@ class CustomButtonBlocConsumer extends StatelessWidget {
             onTap: () {
               PaymentIntentInputModel paymentIntentInputModel =
                   PaymentIntentInputModel(
+                customerId: "cus_RAO3SoMvfmwCkK",
                 amount: "100",
                 currency: "usd",
                 // paymentMethodTypes: ["card"],
